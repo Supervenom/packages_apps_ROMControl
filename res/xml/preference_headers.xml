@@ -65,6 +65,10 @@
 	<header android:title="@string/statusbar" />
 
 	<header
+		android:id="@+id/memory_management"
+		android:fragment="com.aokp.romcontrol.fragments.MemoryManagement" />
+
+	<header
 		android:id="@+id/statusbar_general"
 		android:fragment="com.aokp.romcontrol.fragments.StatusBarGeneral"
 		android:title="@string/general"
